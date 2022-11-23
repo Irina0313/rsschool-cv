@@ -28,9 +28,9 @@ Adaptable to fast-paced environment, patient, attentive to detail, able to work 
 
 ## Courses:
 
--   Website development with HTML, CSS & JavaScript  at   [IT Academy](https://www.it-academy.by/course/front-end-developer/) 
+-   Website development with HTML, CSS & JavaScript  at   [IT Academy, ](https://www.it-academy.by/course/front-end-developer/) 
 [*Look at Certificate*]( https://www.it-academy.by/)
-- HTML, CSS, and Javascript for Web Developers at [Coursera](https://www.coursera.org/learn/html-css-javascript-for-web-developers)
+- HTML, CSS, and Javascript for Web Developers at [Coursera, ](https://www.coursera.org/learn/html-css-javascript-for-web-developers)
 [*Look at Certificate*](https://www.coursera.org/account/accomplishments/certificate/8D9VH2LH3AM9)
 -   JavaScript Manual on  [learnjavascript.ru](https://learn.javascript.ru/)  (in progress)
 -   RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
@@ -45,3 +45,11 @@ function otherAngle(a, b) {
 }
 console.log(otherAngle(30, 10));
 ```
+## Languages:
+
+- English B2 (Intermediate/Upper-intermediate)    
+    +(online test at [EFSET](https://www.efset.org/quick-check))
+    +[Certificate](https://drive.google.com/file/d/1qPYMi3TjAvLzdkYtqcoWv3h36Y9RpyOZ/view?usp=share_link) of English B2 level (Lingoda GmbH)
+- Russian - native
+- Belarusian - native
+- Ukrainian - intermediate
