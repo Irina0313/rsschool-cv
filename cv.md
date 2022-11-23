@@ -51,7 +51,7 @@ console.log(otherAngle(30, 10));
 - Belarusian - native
 - Ukrainian - intermediate
 - English B2 (Intermediate/Upper-intermediate)    
-    -[Certificate](https://drive.google.com/file/d/1qPYMi3TjAvLzdkYtqcoWv3h36Y9RpyOZ/view?usp=share_link) of English B2 level (Lingoda GmbH)
+    -[Certificate](https://drive.google.com/file/d/1qPYMi3TjAvLzdkYtqcoWv3h36Y9RpyOZ/view?usp=share_link) of English B2 level (Lingoda GmbH)    
     -Online test at [EFSET](https://www.efset.org/quick-check)
     
     ![Screenshot ot the test result](./images/Eng-sert.jpg)    
