@@ -48,7 +48,7 @@ console.log(otherAngle(30, 10));
 ## Languages:
 
 - English B2 (Intermediate/Upper-intermediate)    
-    -(online test at [EFSET](https://www.efset.org/quick-check))    
+    -Online test at [EFSET](https://www.efset.org/quick-check)![Screenshot ot the test result](./images/Eng-sert.jpg)    
     -[Certificate](https://drive.google.com/file/d/1qPYMi3TjAvLzdkYtqcoWv3h36Y9RpyOZ/view?usp=share_link) of English B2 level (Lingoda GmbH)
 - Russian - native
 - Belarusian - native
