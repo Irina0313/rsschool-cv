@@ -32,7 +32,8 @@ Adaptable to fast-paced environment, patient, attentive to detail, able to work 
 [*Look at Certificate*]( https://www.it-academy.by/)
 - HTML, CSS, and Javascript for Web Developers at [Coursera, ](https://www.coursera.org/learn/html-css-javascript-for-web-developers)
 [*Look at Certificate*](https://www.coursera.org/account/accomplishments/certificate/8D9VH2LH3AM9)
--   JavaScript Manual on  [learnjavascript.ru](https://learn.javascript.ru/)  (in progress)
+-   JavaScript Manual on  [learn
+javascript.ru](https://learn.javascript.ru/)  (in progress)
 -   RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 ## Code example:
 **Third Angle of a Triangle**
@@ -46,10 +47,12 @@ function otherAngle(a, b) {
 console.log(otherAngle(30, 10));
 ```
 ## Languages:
-
-- English B2 (Intermediate/Upper-intermediate)    
-    -Online test at [EFSET](https://www.efset.org/quick-check)![Screenshot ot the test result](./images/Eng-sert.jpg)    
-    -[Certificate](https://drive.google.com/file/d/1qPYMi3TjAvLzdkYtqcoWv3h36Y9RpyOZ/view?usp=share_link) of English B2 level (Lingoda GmbH)
 - Russian - native
 - Belarusian - native
 - Ukrainian - intermediate
+- English B2 (Intermediate/Upper-intermediate)    
+    -[Certificate](https://drive.google.com/file/d/1qPYMi3TjAvLzdkYtqcoWv3h36Y9RpyOZ/view?usp=share_link) of English B2 level (Lingoda GmbH)
+    -Online test at [EFSET](https://www.efset.org/quick-check)
+    
+    ![Screenshot ot the test result](./images/Eng-sert.jpg)    
+    
