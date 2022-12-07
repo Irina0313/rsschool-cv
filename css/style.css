@@ -137,3 +137,34 @@ color: #333333;
    font-style: normal;
    display: inline-flex;
 }
+
+/*Summary*/
+
+.summary{
+   border-bottom: 1px solid #666666;
+}
+.summary .container{
+   max-width: 1260px;
+   margin: 0 0 0 18px;
+}
+.subtitle{
+   font-family: 'Poppins';
+font-weight: 700;
+font-size: 45px;
+line-height: 68px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #157698;
+}
+.summary p{
+   font-family: 'Roboto';
+font-weight: 400;
+font-size: 26px;
+line-height: 130%;
+letter-spacing: 0.03em;
+color: #666666;
+text-align: justify;
+}
+.summary p{
+   margin: 0 0 30px 0;
+}
