@@ -1,0 +1,35 @@
+/*Global style*/
+
+*{
+   font-family: 'Poppins', sans-serif;
+   font-family: 'Roboto', sans-serif;
+   color: #666666;
+   font-size: 16px;
+   margin: 0 auto;
+}
+
+/*Header*/
+.header{
+   max-width: 1280px;  
+}
+
+.navigation .nav-string{
+   display: flex;
+}
+.nav-string{
+   padding: 46px 26px 23px 26px;
+   border-bottom: 1px solid #666666;
+   justify-content: space-between;
+}
+
+.nav-string-item {
+   font-family: 'Poppins';
+   font-weight: 700;
+   font-size: 22px;
+   letter-spacing: 0.05em;
+   text-transform: uppercase;
+   color: #157698;
+   list-style-type: none;
+   padding: 0 10px 0 10px;
+}   
+   
