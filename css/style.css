@@ -248,7 +248,6 @@ color: #A9A9A9;
 }
 .subtitle-item{
    padding: 0 0 23px 0;
-   border-bottom: 1px solid #666666;
 }
 
 .subtitle-item li{
@@ -269,4 +268,51 @@ color: #A9A9A9;
    width: 10px;
    height: 1px;
    border-bottom: 2px solid #666666;
+}
+
+.column-right{
+   padding: 0 0 0 40px;
+}
+.project-one{
+   background-image: url(../assets/images/project_1.png);
+   border-bottom: solid 1px #666666;
+   border-top: solid 1px #666666;
+}
+.project {
+   position: relative;
+   background-clip:content-box;
+   height: 296.5px;
+   background-repeat: no-repeat;
+   padding: 10px;
+   background-position: right;
+   background-size: 50%;
+}
+.project button{
+   width: 150px;
+   height: 40px;
+   border-radius: 10px;
+   position: absolute;
+   bottom: 20px;
+   left: 20px;
+   background-color: rgba(21, 118, 152, 0.3);
+   border: solid 1px #157698;
+
+}
+.project button a{
+   color: #157698;
+   font-family: 'Roboto';
+   font-weight: 600;
+   font-size: 23px;
+   text-transform: uppercase;
+   letter-spacing: 0.03em;
+
+}
+.project .name,
+.project p{
+   max-width: 50%;
+   margin: 0 0 20px 0;
+}
+
+.project-two{
+   background-image: url(../assets/images/cars.png);
 }
