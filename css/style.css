@@ -246,12 +246,12 @@ color: #A9A9A9;
 .column .field img{
    align-items:flex-end;
 }
-.subtitle-skills{
+.subtitle-item{
    padding: 0 0 23px 0;
    border-bottom: 1px solid #666666;
 }
 
-.subtitle-skills li{
+.subtitle-item li{
    font-family: 'Roboto';
    font-size: 28px;
    line-height: 33px;
@@ -261,10 +261,10 @@ color: #A9A9A9;
    position: relative;
    padding: 0 0 0 20px;
 }
-.subtitle-skills li::before{
+.subtitle-item li::before{
    position:absolute;
    content:"";
-   top:50%;
+   top:15px;
    left: 0;
    width: 10px;
    height: 1px;
