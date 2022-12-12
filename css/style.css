@@ -236,7 +236,6 @@ color: #A9A9A9;
 .column .field a,
 .column .field{
    font-family: 'Roboto';
-   font-weight: 400;
    font-size: 26px;
    line-height: 30px;
    letter-spacing: 0.03em;
@@ -246,4 +245,28 @@ color: #A9A9A9;
 
 .column .field img{
    align-items:flex-end;
+}
+.subtitle-skills{
+   padding: 0 0 23px 0;
+   border-bottom: 1px solid #666666;
+}
+
+.subtitle-skills li{
+   font-family: 'Roboto';
+   font-size: 28px;
+   line-height: 33px;
+   letter-spacing: 0.05em;
+   color: #666666;
+   list-style-type: none;
+   position: relative;
+   padding: 0 0 0 20px;
+}
+.subtitle-skills li::before{
+   position:absolute;
+   content:"";
+   top:50%;
+   left: 0;
+   width: 10px;
+   height: 1px;
+   border-bottom: 2px solid #666666;
 }
