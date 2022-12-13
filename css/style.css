@@ -281,7 +281,7 @@ color: #A9A9A9;
 .project {
    position: relative;
    background-clip:content-box;
-   height: 296.5px;
+   height: 377px;
    background-repeat: no-repeat;
    padding: 10px;
    background-position: right;
@@ -310,9 +310,14 @@ color: #A9A9A9;
 .project .name,
 .project p{
    max-width: 50%;
-   margin: 0 0 20px 0;
+   margin: 20px 0 40px 0;
 }
-
+.project .field{
+font-size: 24px;
+}
 .project-two{
    background-image: url(../assets/images/cars.png);
+}
+.code-example{
+   padding: 0 0 23px 0;
 }
