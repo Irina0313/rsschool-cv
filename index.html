@@ -16,7 +16,7 @@
 
 
 <body>
-   <header class="header container">
+   <header class="container" id="top">
       <nav class="navigation">
          <ul class="nav-string">
             <li class="nav-string-item"><a href="#summary">Summary</a></li>
@@ -30,7 +30,8 @@
    </header>
    <main class="container">
       <section class="profile">
-         <div class="profile-photo"><img src="./assets/images/photo.jpg" alt="Photo" width="425px" height="425px"></div>
+         <div class="profile-photo"><img src="./assets/images/photo.jpg" alt="Photo" width="425px" height="425px">
+         </div>
          <div class="profile-info">
             <div class="profile-info-name">
                <h1>Iryna <span>Kanavalchuk</span></h1>
@@ -39,27 +40,38 @@
             <div class="profile-into-contacts">
                <ul class="profile-into-contacts-section">
                   <li>
-                     <img src="./assets/images/Telegram.svg" alt="Telegram" width="36px" height="36px">
-                     <span>@IrinaKonovalchuk</span>
+                     <a href="https://t.me/IrinaKonovalchuk" title="Telegram" target="_blank">
+                        <img src="./assets/images/Telegram.svg" alt="Telegram" width="36px" height="36px">
+                        <span>@IrinaKonovalchuk</span>
+                     </a>
                   </li>
                   <li>
-                     <img src="./assets/images/Discord.svg" alt="Discord" width="36px" height="36px">
-                     Irina (@Irina0313)
+                     <a href="https://discordapp.com/users/1043250347742855208/" title="Discord" target="_blank">
+                        <img src="./assets/images/Discord.svg" alt="Discord" width="36px" height="36px">
+                        <span>Irina (@Irina0313)</span>
+                     </a>
                   </li>
                   <li>
-                     <img src="./assets/images/Linkedin.svg" alt="LinkedIn" width="36px" height="36px">
-                     <a href="https://www.linkedin.com/in/irina-konovalchuk" title="Visit LinkedIn"
-                        target="_blank">irina-konovalchuk</a>
+                     <a href="https://www.linkedin.com/in/irina-konovalchuk" title="Visit LinkedIn" target="_blank">
+                        <img src="./assets/images/Linkedin.svg" alt="LinkedIn" width="36px" height="36px">
+                        <span>irina-konovalchuk</span>
+                     </a>
                   </li>
                </ul>
                <ul class="profile-into-contacts-section">
                   <li>
-                     <img src="./assets/images/Tel.png" alt="Phone" width="36px" height="36px">
-                     <a href="tel:+375291889984" title="Call">+375 29 188 99 84</a>
+                     <a href="tel:+375291889984" title="Call">
+                        <img src="./assets/images/Tel.png" alt="Phone" width="36px" height="36px">
+                        <span>+375 29 188 99 84</span>
+                     </a>
                   </li>
                   <li>
-                     <img src="./assets/images/Post.svg" alt="e-mail" width="36px" height="36px">
-                     <address><a href="mailto:irkinbk@gmail.com" title="Send a letter">irkinbk@gmail.com</a></address>
+                     <address>
+                        <a href="mailto:irkinbk@gmail.com" title="Send a letter" target="_blank">
+                           <img src="./assets/images/Post.svg" alt="e-mail" width="36px" height="36px">
+                           <span>irkinbk@gmail.com</span>
+                        </a>
+                     </address>
                   </li>
                </ul>
             </div>
@@ -68,11 +80,13 @@
       <article class="summary" id="summary">
          <div class="container">
             <h2 class="subtitle">Summary</h2>
-            <p>Result-driven, customer-focused, analytical, passionate junior front-end developer with a desire to learn
+            <p>Result-driven, customer-focused, analytical, passionate junior front-end developer with a desire to
+               learn
                and grow in a collaborative team environment. Skilled in HTML, CSS, and JavaScript. Excels at creating
                pixel-perfect designs and working with cross-browser compatibility issues.</p>
 
-            <p>Adaptable to fast-paced environment, patient, attentive to detail, able to work under pressure to achieve
+            <p>Adaptable to fast-paced environment, patient, attentive to detail, able to work under pressure to
+               achieve
                required results. Forming positive relationships with colleagues, business partners through effective
                communication. Excellent command of the necessary software and equipment.
             </p>
@@ -171,7 +185,7 @@
          </div>
       </section>
    </main>
-   <footer class="footer">
+   <footer class="footer container">
       <ul class="footer-row">
          <li class="year">2022</li>
          <li class="git">
@@ -185,6 +199,11 @@
          </li>
       </ul>
    </footer>
+   <button class="back-top">
+      <a href="#top" title="Back to top">
+         <img src="./assets/images/back-button.svg" alt="Back button">
+      </a>
+   </button>
 </body>
 
 </html>
