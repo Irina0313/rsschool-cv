@@ -15,8 +15,8 @@
 </head>
 
 
-<body>
-   <header class="container" id="top">
+<body class="-is-burger-modal-opened">
+   <header class=" container" id="top">
       <nav class="navigation">
          <ul class="nav-string">
             <li class="nav-string-item"><a href="#summary">Summary</a></li>
@@ -26,34 +26,54 @@
             <li class="nav-string-item"><a href="#code">Code Example</a></li>
             <li class="nav-string-item"><a href="#languages">Languages</a></li>
          </ul>
+         <div class="menu-small" onclick="burgerModal()">
+            <span></span>
+            <span></span>
+            <span></span>
+         </div>
+      </nav>
+      <nav class="nav-modal">
+         <ul class="menu-small-modal" onclick="burgerModal()">
+            <li class="nav-string-item"><a href="#summary">Summary</a></li>
+            <li class="nav-string-item"><a href="#education">Education</a></li>
+            <li class="nav-string-item"><a href="#courses">Courses</a></li>
+            <li class="nav-string-item"><a href="#skills">Skills</a></li>
+            <li class="nav-string-item"><a href="#code">Code Example</a></li>
+            <li class="nav-string-item"><a href="#languages">Languages</a></li>
+         </ul>
+         <div class="menu-small" onclick="burgerModal()">
+            <span></span>
+            <span></span>
+            <span></span>
+         </div>
       </nav>
    </header>
    <main class="container">
       <section class="profile">
-         <div class="profile-photo"><img src="./assets/images/photo.jpg" alt="Photo" width="425px" height="425px">
+         <div class="profile-photo"><img src="./assets/images/photo.jpg" alt="Photo" width="425" height="425">
          </div>
          <div class="profile-info">
             <div class="profile-info-name">
                <h1>Iryna <span>Kanavalchuk</span></h1>
                <h2>Frontend Developer</h2>
             </div>
-            <div class="profile-into-contacts">
+            <div class="profile-into-contacts media-large">
                <ul class="profile-into-contacts-section">
                   <li>
                      <a href="https://t.me/IrinaKonovalchuk" title="Telegram" target="_blank">
-                        <img src="./assets/images/Telegram.svg" alt="Telegram" width="36px" height="36px">
+                        <img src="./assets/images/Telegram.svg" alt="Telegram" width="36" height="36">
                         <span>@IrinaKonovalchuk</span>
                      </a>
                   </li>
                   <li>
                      <a href="https://discordapp.com/users/1043250347742855208/" title="Discord" target="_blank">
-                        <img src="./assets/images/Discord.svg" alt="Discord" width="36px" height="36px">
+                        <img src="./assets/images/Discord.svg" alt="Discord" width="36" height="36">
                         <span>Irina (@Irina0313)</span>
                      </a>
                   </li>
                   <li>
                      <a href="https://www.linkedin.com/in/irina-konovalchuk" title="Visit LinkedIn" target="_blank">
-                        <img src="./assets/images/Linkedin.svg" alt="LinkedIn" width="36px" height="36px">
+                        <img src="./assets/images/Linkedin.svg" alt="LinkedIn" width="36" height="36">
                         <span>irina-konovalchuk</span>
                      </a>
                   </li>
@@ -61,20 +81,65 @@
                <ul class="profile-into-contacts-section">
                   <li>
                      <a href="tel:+375291889984" title="Call">
-                        <img src="./assets/images/Tel.png" alt="Phone" width="36px" height="36px">
+                        <img src="./assets/images/Tel.png" alt="Phone" width="36" height="36">
                         <span>+375 29 188 99 84</span>
                      </a>
                   </li>
                   <li>
                      <address>
                         <a href="mailto:irkinbk@gmail.com" title="Send a letter" target="_blank">
-                           <img src="./assets/images/Post.svg" alt="e-mail" width="36px" height="36px">
+                           <img src="./assets/images/Post.svg" alt="e-mail" width="36" height="36">
                            <span>irkinbk@gmail.com</span>
                         </a>
                      </address>
                   </li>
                </ul>
             </div>
+
+
+
+
+         </div>
+
+         <div class="profile-photo media1015"><img src="./assets/images/photo.jpg" alt="Photo" width="425" height="425">
+         </div>
+         <div class="profile-into-contacts media1159">
+            <ul class="profile-into-contacts-section">
+               <li>
+                  <a href="https://t.me/IrinaKonovalchuk" title="Telegram" target="_blank">
+                     <img src="./assets/images/Telegram.svg" alt="Telegram" width="36" height="36">
+                     <span>@IrinaKonovalchuk</span>
+                  </a>
+               </li>
+               <li>
+                  <a href="https://discordapp.com/users/1043250347742855208/" title="Discord" target="_blank">
+                     <img src="./assets/images/Discord.svg" alt="Discord" width="36" height="36">
+                     <span>Irina (@Irina0313)</span>
+                  </a>
+               </li>
+               <li>
+                  <a href="https://www.linkedin.com/in/irina-konovalchuk" title="Visit LinkedIn" target="_blank">
+                     <img src="./assets/images/Linkedin.svg" alt="LinkedIn" width="36" height="36">
+                     <span>irina-konovalchuk</span>
+                  </a>
+               </li>
+            </ul>
+            <ul class="profile-into-contacts-section">
+               <li>
+                  <a href="tel:+375291889984" title="Call">
+                     <img src="./assets/images/Tel.png" alt="Phone" width="36" height="36">
+                     <span>+375 29 188 99 84</span>
+                  </a>
+               </li>
+               <li>
+                  <address>
+                     <a href="mailto:irkinbk@gmail.com" title="Send a letter" target="_blank">
+                        <img src="./assets/images/Post.svg" alt="e-mail" width="36" height="36">
+                        <span>irkinbk@gmail.com</span>
+                     </a>
+                  </address>
+               </li>
+            </ul>
          </div>
       </section>
       <article class="summary" id="summary">
@@ -92,7 +157,7 @@
             </p>
          </div>
       </article>
-      <section class="main">
+      <div class="main">
          <div class="column-left column">
             <section>
                <h2 class="subtitle" id="education">Education</h2>
@@ -107,7 +172,7 @@
                   <p class="name"><a href="https://www.it-academy.by/" target="_blank">IT Academy</a></p>
                   <a href="https://drive.google.com/file/d/19uxy0JIZ5CLijG4VZeurJkSpTB8PbXcN/view?usp=share_link"
                      class="sert" target="_blank"><img src="./assets/images/Certificate.svg" alt="Certificate link"
-                        width="40px" height="40px" title="Show certificate"></a>
+                        width="40" height="40" title="Show certificate"></a>
                </div>
                <p class="year">2021</p>
                <p class="field"><a href="https://www.it-academy.by/course/front-end-developer/" target="_blank">Website
@@ -115,8 +180,8 @@
                <div class="course">
                   <p class="name"><a href="https://www.coursera.org/" target="_blank">Coursera</a></p>
                   <a href="https://www.coursera.org/account/accomplishments/certificate/8D9VH2LH3AM9" class="sert"
-                     target="_blank"><img src="./assets/images/Certificate.svg" alt="Sertificate link" width="40px"
-                        height="40px" title="Show certificate"></a>
+                     target="_blank"><img src="./assets/images/Certificate.svg" alt="Sertificate link" width="40"
+                        height="40" title="Show certificate"></a>
                </div>
                <p class="year">2022</p>
                <p class="field"><a href="https://www.coursera.org/learn/html-css-javascript-for-web-developers"
@@ -142,8 +207,8 @@
                   <li class="english">
                      <p>English intermediate/upper-intermediate</p>
                      <a href="https://drive.google.com/file/d/1qPYMi3TjAvLzdkYtqcoWv3h36Y9RpyOZ/view" class="sert"
-                        target="_blank"><img src="./assets/images/Certificate.svg" alt="Sertificate link" width="40px"
-                           height="40px" title="Show certificate"></a>
+                        target="_blank"><img src="./assets/images/Certificate.svg" alt="Sertificate link" width="40"
+                           height="40" title="Show certificate"></a>
                   </li>
                </ul>
             </section>
@@ -155,21 +220,21 @@
                   <h3 class="name">Website for Estate Agency</h3>
                   <p class="field">Final project of the Website
                      development with HTML, CSS & JavaScript course at IT Academy</p>
-                  <button>
+                  <div class="button">
                      <a href="https://irina0313.github.io/Diplom_project/" target="_blank">Look</a>
-                  </button>
+                  </div>
                </article>
                <article class="project project-two">
                   <h3 class="name">Car rental website</h3>
                   <p class="field">Project of an intensive course at the online school itligia.ru</p>
-                  <button>
+                  <div class="button">
                      <a href="https://irina0313.github.io/cars-hw/" target="_blank">Look</a>
-                  </button>
+                  </div>
                </article>
             </section>
             <section class="code-example">
                <h2 class="subtitle" id="code">Code example</h2>
-               <article>
+               <div>
                   <p class="field">Third Angle of a Triangle</p>
                   <p class="field">It is given Two interior angles (in degrees) of a triangle. <br>
                      A function to return the 3rd:</p>
@@ -180,10 +245,10 @@
                         }<br>
                         console.log(otherAngle(30, 10));
                </code>
-               </article>
+               </div>
             </section>
          </div>
-      </section>
+      </div>
    </main>
    <footer class="footer container">
       <ul class="footer-row">
@@ -199,11 +264,12 @@
          </li>
       </ul>
    </footer>
-   <button class="back-top">
+   <div class="back-top button">
       <a href="#top" title="Back to top">
          <img src="./assets/images/back-button.svg" alt="Back button">
       </a>
-   </button>
+   </div>
+   <script src="./scripts.js"></script>
 </body>
 
 </html>
