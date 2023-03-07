@@ -5,11 +5,272 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/normalize.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;500;900&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="./css/style.css">
    <title>Document</title>
 </head>
 
-<body>
 
+<body class="-is-burger-modal-opened">
+   <header class=" container" id="top">
+      <nav class="navigation">
+         <ul class="nav-string">
+            <li class="nav-string-item"><a href="#summary">Summary</a></li>
+            <li class="nav-string-item"><a href="#education">Education</a></li>
+            <li class="nav-string-item"><a href="#courses">Courses</a></li>
+            <li class="nav-string-item"><a href="#skills">Skills</a></li>
+            <li class="nav-string-item"><a href="#code">Code Example</a></li>
+            <li class="nav-string-item"><a href="#languages">Languages</a></li>
+         </ul>
+         <div class="menu-small" onclick="burgerModal()">
+            <span></span>
+            <span></span>
+            <span></span>
+         </div>
+      </nav>
+      <nav class="nav-modal">
+         <ul class="menu-small-modal" onclick="burgerModal()">
+            <li class="nav-string-item"><a href="#summary">Summary</a></li>
+            <li class="nav-string-item"><a href="#education">Education</a></li>
+            <li class="nav-string-item"><a href="#courses">Courses</a></li>
+            <li class="nav-string-item"><a href="#skills">Skills</a></li>
+            <li class="nav-string-item"><a href="#code">Code Example</a></li>
+            <li class="nav-string-item"><a href="#languages">Languages</a></li>
+         </ul>
+         <div class="menu-small" onclick="burgerModal()">
+            <span></span>
+            <span></span>
+            <span></span>
+         </div>
+      </nav>
+   </header>
+   <main class="container">
+      <section class="profile">
+         <div class="profile-photo"><img src="./assets/images/photo.jpg" alt="Photo" width="425" height="425">
+         </div>
+         <div class="profile-info">
+            <div class="profile-info-name">
+               <h1>Iryna <span>Kanavalchuk</span></h1>
+               <h2>FrontEnd Developer</h2>
+            </div>
+            <div class="profile-into-contacts media-large">
+               <ul class="profile-into-contacts-section">
+                  <li>
+                     <a href="https://t.me/IrinaKonovalchuk" title="Telegram" target="_blank">
+                        <img src="./assets/images/Telegram.svg" alt="Telegram" width="36" height="36">
+                        <span>@IrinaKonovalchuk</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://discordapp.com/users/1043250347742855208/" title="Discord" target="_blank">
+                        <img src="./assets/images/Discord.svg" alt="Discord" width="36" height="36">
+                        <span>Irina&nbsp;(@Irina0313)</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://www.linkedin.com/in/irina-konovalchuk" title="Visit LinkedIn" target="_blank">
+                        <img src="./assets/images/Linkedin.svg" alt="LinkedIn" width="36" height="36">
+                        <span>irina-konovalchuk</span>
+                     </a>
+                  </li>
+               </ul>
+               <ul class="profile-into-contacts-section">
+                  <li>
+                     <a href="tel:+375291889984" title="Call">
+                        <img src="./assets/images/Tel.png" alt="Phone" width="36" height="36">
+                        <span>+375&nbsp;29&nbsp;188&nbsp;99&nbsp;84</span>
+                     </a>
+                  </li>
+                  <li>
+                     <address>
+                        <a href="mailto:irkinbk@gmail.com" title="Send a letter" target="_blank">
+                           <img src="./assets/images/Post.svg" alt="e-mail" width="36" height="36">
+                           <span>irkinbk@gmail.com</span>
+                        </a>
+                     </address>
+                  </li>
+               </ul>
+            </div>
+
+
+
+
+         </div>
+
+         <div class="profile-photo media1015"><img src="./assets/images/photo.jpg" alt="Photo" width="425" height="425">
+         </div>
+         <div class="profile-into-contacts media1159">
+            <ul class="profile-into-contacts-section">
+               <li>
+                  <a href="https://t.me/IrinaKonovalchuk" title="Telegram" target="_blank">
+                     <img src="./assets/images/Telegram.svg" alt="Telegram" width="36" height="36">
+                     <span>@IrinaKonovalchuk</span>
+                  </a>
+               </li>
+               <li>
+                  <a href="https://discordapp.com/users/1043250347742855208/" title="Discord" target="_blank">
+                     <img src="./assets/images/Discord.svg" alt="Discord" width="36" height="36">
+                     <span>Irina (@Irina0313)</span>
+                  </a>
+               </li>
+               <li>
+                  <a href="https://www.linkedin.com/in/irina-konovalchuk" title="Visit LinkedIn" target="_blank">
+                     <img src="./assets/images/Linkedin.svg" alt="LinkedIn" width="36" height="36">
+                     <span>irina-konovalchuk</span>
+                  </a>
+               </li>
+            </ul>
+            <ul class="profile-into-contacts-section">
+               <li>
+                  <a href="tel:+375291889984" title="Call">
+                     <img src="./assets/images/Tel.png" alt="Phone" width="36" height="36">
+                     <span>+375&nbsp;29&nbsp;188&nbsp;99&nbsp;84</span>
+                  </a>
+               </li>
+               <li>
+                  <address>
+                     <a href="mailto:irkinbk@gmail.com" title="Send a letter" target="_blank">
+                        <img src="./assets/images/Post.svg" alt="e-mail" width="36" height="36">
+                        <span>irkinbk@gmail.com</span>
+                     </a>
+                  </address>
+               </li>
+            </ul>
+         </div>
+      </section>
+      <article class="summary" id="summary">
+         <div class="container">
+            <h2 class="subtitle">Summary</h2>
+            <p>Result-driven, customer-focused, analytical, passionate junior front-end developer with a&nbsp;desire
+               to&nbsp;learn and grow in&nbsp;a&nbsp;collaborative team environment. Skilled in&nbsp;HTML, CSS, and
+               JavaScript. Excels at&nbsp;creating pixel-perfect designs and working with cross-browser compatibility
+               issues.</p>
+
+            <p>Adaptable to&nbsp;fast-paced environment, patient, attentive to&nbsp;detail, able to&nbsp;work under
+               pressure to&nbsp;achieve required results. Forming positive relationships with colleagues, business
+               partners through effective communication. Excellent command of&nbsp;the necessary software and equipment.
+            </p>
+         </div>
+      </article>
+      <div class="main">
+         <div class="column-left column">
+            <section>
+               <h2 class="subtitle" id="education">Education</h2>
+               <p class="name"><a href="http://bseu.by/" target="_blank">Belarusian State <br> Economic University</a>
+               </p>
+               <p class="year">2005-2010</p>
+               <p class="field">Accounting, analysis and audit, finance</p>
+            </section>
+            <section>
+               <h2 class="subtitle" id="courses">Courses</h2>
+               <div class="course">
+                  <p class="name"><a href="https://www.it-academy.by/" target="_blank">IT Academy</a></p>
+                  <a href="https://drive.google.com/file/d/19uxy0JIZ5CLijG4VZeurJkSpTB8PbXcN/view?usp=share_link"
+                     class="sert" target="_blank"><img src="./assets/images/Certificate.svg" alt="Certificate link"
+                        width="40" height="40" title="Show certificate"></a>
+               </div>
+               <p class="year">2021</p>
+               <p class="field"><a href="https://www.it-academy.by/course/front-end-developer/" target="_blank">Website
+                     development with HTML, CSS &amp;&nbsp;JavaScript</a></p>
+               <div class="course">
+                  <p class="name"><a href="https://www.coursera.org/" target="_blank">Coursera</a></p>
+                  <a href="https://www.coursera.org/account/accomplishments/certificate/8D9VH2LH3AM9" class="sert"
+                     target="_blank"><img src="./assets/images/Certificate.svg" alt="Sertificate link" width="40"
+                        height="40" title="Show certificate"></a>
+               </div>
+               <p class="year">2022</p>
+               <p class="field"><a href="https://www.coursera.org/learn/html-css-javascript-for-web-developers"
+                     target="_blank">HTML,
+                     CSS, and Javascript for Web Developers</a></p>
+            </section>
+            <section>
+               <h2 class="subtitle" id="skills">Skills</h2>
+               <ul class="subtitle-item">
+                  <li>HTML5, CSS3</li>
+                  <li>JavaScript Basics</li>
+                  <li>Git, GitHub</li>
+                  <li>VS Code</li>
+                  <li>Adobe Photoshop, Figma</li>
+               </ul>
+            </section>
+            <section>
+               <h2 class="subtitle" id="languages">Languages</h2>
+               <ul class="subtitle-item">
+                  <li>Russian - native</li>
+                  <li>Belarusian - native</li>
+                  <li>Ukrainian - intermediate</li>
+                  <li class="english">
+                     <p>English intermediate/upper-intermediate</p>
+                     <a href="https://drive.google.com/file/d/1qPYMi3TjAvLzdkYtqcoWv3h36Y9RpyOZ/view" class="sert"
+                        target="_blank"><img src="./assets/images/Certificate.svg" alt="Sertificate link" width="40"
+                           height="40" title="Show certificate"></a>
+                  </li>
+               </ul>
+            </section>
+         </div>
+         <div class="column-right column">
+            <section class="project-section">
+               <h2 class="subtitle" id="projects">Projects</h2>
+               <article class="project project-one">
+                  <h3 class="name">Website for Estate Agency</h3>
+                  <p class="field">Final project of&nbsp;the Website development with HTML, CSS &amp;&nbsp;JavaScript
+                     course at&nbsp;IT&nbsp;Academy</p>
+                  <div class="button">
+                     <a href="https://irina0313.github.io/Diplom_project/" target="_blank">Look</a>
+                  </div>
+               </article>
+               <article class="project project-two">
+                  <h3 class="name">Car rental website</h3>
+                  <p class="field">Project of&nbsp;an&nbsp;intensive course at&nbsp;the online school itligia.ru</p>
+                  <div class="button">
+                     <a href="https://irina0313.github.io/cars-hw/" target="_blank">Look</a>
+                  </div>
+               </article>
+            </section>
+            <section class="code-example">
+               <h2 class="subtitle" id="code">Code example</h2>
+               <div>
+                  <p class="field">Third Angle of a Triangle</p>
+                  <p class="field">It&nbsp;is&nbsp;given Two interior angles (in&nbsp;degrees) of&nbsp;a&nbsp;triangle.
+                     <br>
+                     A function to return the 3rd:
+                  </p>
+                  <code class="code-example-item field">
+                     function otherAngle(a, b) { <br>
+                        var c = 180 - (a+b); <br>
+                        return c;<br>
+                        }<br>
+                        console.log(otherAngle(30, 10));
+               </code>
+               </div>
+            </section>
+         </div>
+      </div>
+   </main>
+   <footer class="footer container">
+      <ul class="footer-row">
+         <li class="year">2022</li>
+         <li class="git">
+            <a href="https://github.com/Irina0313" target="_blank"><img src="./assets/images/git.svg" alt="GitHub image"
+                  title="Welcome to my GitHub!" width="62" height="65"></a>
+         </li>
+         <li class="rsschool">
+            <a href="https://rs.school/js-stage0/" target="_blank">
+               <img src="./assets/images/rs_school.svg" alt="RSScool image" title="Visit RSSchool website" width="230"
+                  height="86"></a>
+         </li>
+      </ul>
+   </footer>
+   <div class="back-top button">
+      <a href="#top" title="Back to top">
+         <img src="./assets/images/back-button.svg" alt="Back button">
+      </a>
+   </div>
+   <script src="./scripts.js"></script>
 </body>
 
 </html>
