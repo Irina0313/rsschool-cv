@@ -35,7 +35,7 @@ Adaptable to fast-paced environment, patient, attentive to detail, able to work 
 [*Look at Certificate*](https://www.coursera.org/account/accomplishments/certificate/8D9VH2LH3AM9)
 - JavaScript Manual on  [learn
 javascript.ru](https://learn.javascript.ru/)  (in progress)
-- RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+- RS Schools Course «JavaScript/Front-end. Stage 0»
 
 ## Code example
 
